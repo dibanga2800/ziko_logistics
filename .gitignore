@@ -1,0 +1,7 @@
+.env
+files/customer.csv
+files/product.csv
+files/transaction_fact.csv
+files/postgresql-42.7.3.jar
+files/Spark ETL pipeline using Windows Task scheduler.pptx.pdf  
+files/Week 10_Introduction_to_Data_Engineering_Process_Flow_case.pptx.pdf
