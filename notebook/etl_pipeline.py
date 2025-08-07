@@ -6,6 +6,16 @@ from azure.storage.blob import BlobServiceClient, BlobClient
 from dotenv import load_dotenv
 
 
+#logging
+import os
+import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, '..', 'dataset', 'ziko_logistics_data.csv')
+
+
+
+
 #Extract data from CSV files
 ziko_df = pd.read_csv(r'../dataset/ziko_logistics_data.csv')
 
